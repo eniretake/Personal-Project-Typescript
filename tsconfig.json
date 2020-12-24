@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es2017",
+    "lib": ["dom", "es2017"],
+    "experimentalDecorators": true,
+    "outDir": "lib"
+    },
+    "paths": {
+        "my-lib": [
+          "./source/transaction/**/*"
+        ]
+    },
+    "include": [
+        "source/transaction/**/*", "source/main.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
